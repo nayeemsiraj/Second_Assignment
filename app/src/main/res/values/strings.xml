@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Employee Management</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add New Employee</string>
+    <string name="action_search">Search</string>
+
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="title_activity_main">Employee List</string>
+    <string name="btnSave">Save</string>
+    <string name="title_activity_employee_registration">Registration Form</string>
+    <string name="title_activity_employees_details">Employees Details</string>
+</resources>

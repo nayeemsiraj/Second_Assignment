@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="#E0F2F1"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:id="@+id/etSearch"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/etSearch"
+        android:id="@+id/lvEmployeeList"
+        android:divider="#E0F2F1"
+        android:dividerHeight="2dp"
+        android:layout_above="@+id/footer">
+
+    </ListView>
+
+    <!-- Footer below Content -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#009688"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:id="@+id/tvAddNew"
+            android:text="Add New"
+            android:gravity="center"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
